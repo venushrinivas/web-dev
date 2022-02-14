@@ -1,0 +1,153 @@
+.wd-dark-theme {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+.wd-margin-left-50 {
+    margin-left: 50px;
+}
+.wd-margin-left-16 {
+    margin-left: 16px;
+}
+.wd-margin-right-16 {
+    margin-right: 16px;
+}
+.wd-margin-top-8 {
+    margin-top: 8px;
+}
+.wd-margin-top-16 {
+    margin-top: 16px;
+}
+.wd-body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.wd-left-border-gray {
+    border-left: 1px solid gray;
+}
+.wd-search-input-div {
+    border-radius: 20px;
+    background-color: #202327;
+    border: none;
+    margin-right: 250px;
+    height: 40px;
+}
+.wd-search-input {
+    width: 90%;
+    border-radius: 20px;
+    height: 35px;
+    background-color: #202327;
+    border: none;
+    color: white;
+    top: -3px;
+    position: relative;
+}
+.wd-display-inline {
+    display: inline;
+}
+.wd-padding-10 {
+    padding: 10px;
+}
+.wd-padding-13 {
+    padding: 13px;
+}
+input:focus{
+    outline: none;
+}
+.wd-settings-icon{
+    padding: 12px;
+    position: absolute;
+    right: 10px;
+}
+.color-cyan {
+    color: rgb(31,160,238);
+}
+.wd-flex-container {
+    display: flex;
+}
+.wd-tab {
+    padding: 16px;
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.wd-tab:hover {
+    background-color: darkgray;
+}
+.wd-tab-selected {
+    color: rgb(29,161,242);
+    border-bottom: 5px solid rgb(29,161,242);
+    padding-bottom: 16px;
+    cursor: default;
+}
+.wd-page-element {
+    border: 1px solid rgb(47,51,54);
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.wd-bold-border-bottom {
+    border-bottom: 5px solid rgb(47,51,54);
+}
+.wd-element-separation {
+    height: 10px;
+}
+.wd-post-type-1 .wd-post-topic {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+.wd-post {
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-bottom: 8px;
+}
+.wd-padding-left-0 {
+    padding-left: 0;
+}
+.wd-post-type-1 .wd-post-title,.wd-post-type-2 .wd-post-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(217,217,217);
+    padding-top: 5px;
+}
+.wd-post-tuit-count {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    padding-top: 5px;
+}
+.wd-post-type-2 .wd-post-topic {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(217,217,217);
+}
+.wd-post-type-2 .wd-post-sub-topic {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+.wd-suggested-posts:hover {
+    background-color: darkgray;
+    cursor: pointer;
+}
+.wd-suggested-posts .wd-post-type-2 .wd-separator {
+    padding-left: 3px;
+    padding-right: 3px;
+    position: relative;
+    top: -3px;
+}
+.wd-width-80p {
+    width: 80%;
+}
+.wd-post-2-image {
+    margin-left: auto;
+    margin-right: 16px;
+}
+.wd-post-2-image > img {
+    border-radius: 20px;
+}
+.wd-right-end {
+    margin-left: auto;
+}
+.wd-color-gray {
+    color:rgb(109,118,124);
+}
