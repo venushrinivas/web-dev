@@ -9,11 +9,20 @@
 .wd-margin-left-16 {
     margin-left: 16px;
 }
+.wd-margin-left-10 {
+    margin-left: 10px !important;
+}
+.wd-margin-left-12 {
+    margin-left: 12px !important;
+}
 .wd-margin-right-16 {
     margin-right: 16px;
 }
 .wd-margin-top-8 {
     margin-top: 8px;
+}
+.wd-margin-top-12 {
+    margin-top: 12px;
 }
 .wd-margin-top-16 {
     margin-top: 16px;
@@ -60,7 +69,7 @@ input:focus{
     position: absolute;
     right: 10px;
 }
-.color-cyan {
+.wd-color-cyan {
     color: rgb(31,160,238);
 }
 .wd-flex-container {
@@ -150,4 +159,92 @@ input:focus{
 }
 .wd-color-gray {
     color:rgb(109,118,124);
+}
+.wd-dark-theme .wd-page-element .wd-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(217,217,217);
+}
+.wd-dark-theme .wd-page-element .wd-sub-title {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+.wd-padding-bottom-12 {
+    padding-bottom: 12px;
+}
+.wd-page-element .wd-avatar > img {
+    border-radius: 24px;
+}
+.wd-right-content .wd-post-topic {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(217,217,217);
+}
+.wd-right-content .wd-post-sub-topic {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+    padding-left: 5px;
+}
+.wd-right-content {
+    width: 100%;
+}
+.wd-right-content .wd-separator {
+    position: relative;
+    top: -3px;
+}
+.wd-dark-theme .wd-bookmark-content {
+    font-size: 15px;
+    margin-top: 2px;
+    max-width: 506px;
+    color: rgb(217,217,217);
+    margin-right: 16px;
+}
+.wd-bookmark-image > img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.wd-image-sub-content {
+    margin-left: 12px;
+    width: 480px;
+    border: 1px solid rgb(47,51,54);
+    position: relative;
+    top: -3px;
+    padding: 12px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 16px;
+}
+.wd-image-sub-content .wd-post-title {
+    font-size: 15px;
+    color: rgb(217,217,217);
+    font-weight: bold;
+}
+.wd-image-sub-content .wd-post-content {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+.wd-padding-top-5 {
+    padding-top: 5px;
+}
+.wd-bookmark-actions {
+    margin-top: 12px;
+    width: 504px;
+    margin-left: 16px;
+}
+.wd-width-25p {
+    width: 25%;
+}
+.wd-bookmark-actions .wd-post-content {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+.wd-bookmark-actions .wd-post-content a {
+    color: inherit;
+    text-decoration: none;
+}
+.wd-bookmark-actions .wd-post-content i {
+    padding-right: 10px;
+}
+.wd-bookmark-actions .wd-red {
+    color: red !important
 }
