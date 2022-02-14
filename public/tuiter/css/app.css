@@ -24,7 +24,7 @@
     width: 100%;
 }
 .wd-left-border-gray {
-    border-left: 1px solid gray;
+    border-left: 1px rgb(47, 51, 54);
 }
 .wd-search-input-div {
     border-radius: 20px;
