@@ -1,0 +1,250 @@
+.wd-dark-theme {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+.wd-margin-left-50 {
+    margin-left: 50px;
+}
+.wd-margin-left-16 {
+    margin-left: 16px;
+}
+.wd-margin-left-10 {
+    margin-left: 10px !important;
+}
+.wd-margin-left-12 {
+    margin-left: 12px !important;
+}
+.wd-margin-right-16 {
+    margin-right: 16px;
+}
+.wd-margin-top-8 {
+    margin-top: 8px;
+}
+.wd-margin-top-12 {
+    margin-top: 12px;
+}
+.wd-margin-top-16 {
+    margin-top: 16px;
+}
+.wd-body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.wd-left-border-gray {
+    border-left: 1px rgb(47, 51, 54);
+}
+.wd-search-input-div {
+    border-radius: 20px;
+    background-color: #202327;
+    border: none;
+    margin-right: 250px;
+    height: 40px;
+}
+.wd-search-input {
+    width: 90%;
+    border-radius: 20px;
+    height: 35px;
+    background-color: #202327;
+    border: none;
+    color: white;
+    top: -3px;
+    position: relative;
+}
+.wd-display-inline {
+    display: inline;
+}
+.wd-padding-10 {
+    padding: 10px;
+}
+.wd-padding-13 {
+    padding: 13px;
+}
+input:focus{
+    outline: none;
+}
+.wd-settings-icon{
+    padding: 12px;
+    position: absolute;
+    right: 10px;
+}
+.wd-color-cyan {
+    color: rgb(31,160,238);
+}
+.wd-flex-container {
+    display: flex;
+}
+.wd-tab {
+    padding: 16px;
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.wd-tab:hover {
+    background-color: darkgray;
+}
+.wd-tab-selected {
+    color: rgb(29,161,242);
+    border-bottom: 5px solid rgb(29,161,242);
+    padding-bottom: 16px;
+    cursor: default;
+}
+.wd-page-element {
+    border: 1px solid rgb(47,51,54);
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.wd-bold-border-bottom {
+    border-bottom: 5px solid rgb(47,51,54);
+}
+.wd-element-separation {
+    height: 10px;
+}
+.wd-post-type-1 .wd-post-topic {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+.wd-post {
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-bottom: 8px;
+}
+.wd-padding-left-0 {
+    padding-left: 0;
+}
+.wd-post-type-1 .wd-post-title,.wd-post-type-2 .wd-post-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(217,217,217);
+    padding-top: 5px;
+}
+.wd-post-tuit-count {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    padding-top: 5px;
+}
+.wd-post-type-2 .wd-post-topic {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(217,217,217);
+}
+.wd-post-type-2 .wd-post-sub-topic {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+.wd-suggested-posts:hover {
+    background-color: darkgray;
+    cursor: pointer;
+}
+.wd-suggested-posts .wd-post-type-2 .wd-separator {
+    padding-left: 3px;
+    padding-right: 3px;
+    position: relative;
+    top: -3px;
+}
+.wd-width-80p {
+    width: 80%;
+}
+.wd-post-2-image {
+    margin-left: auto;
+    margin-right: 16px;
+}
+.wd-post-2-image > img {
+    border-radius: 20px;
+}
+.wd-right-end {
+    margin-left: auto;
+}
+.wd-color-gray {
+    color:rgb(109,118,124);
+}
+.wd-dark-theme .wd-page-element .wd-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(217,217,217);
+}
+.wd-dark-theme .wd-page-element .wd-sub-title {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+.wd-padding-bottom-12 {
+    padding-bottom: 12px;
+}
+.wd-page-element .wd-avatar > img {
+    border-radius: 24px;
+}
+.wd-right-content .wd-post-topic {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(217,217,217);
+}
+.wd-right-content .wd-post-sub-topic {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+    padding-left: 5px;
+}
+.wd-right-content {
+    width: 100%;
+}
+.wd-right-content .wd-separator {
+    position: relative;
+    top: -3px;
+}
+.wd-dark-theme .wd-bookmark-content {
+    font-size: 15px;
+    margin-top: 2px;
+    max-width: 506px;
+    color: rgb(217,217,217);
+    margin-right: 16px;
+}
+.wd-bookmark-image > img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.wd-image-sub-content {
+    margin-left: 12px;
+    width: 480px;
+    border: 1px solid rgb(47,51,54);
+    position: relative;
+    top: -3px;
+    padding: 12px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 16px;
+}
+.wd-image-sub-content .wd-post-title {
+    font-size: 15px;
+    color: rgb(217,217,217);
+    font-weight: bold;
+}
+.wd-image-sub-content .wd-post-content {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+.wd-padding-top-5 {
+    padding-top: 5px;
+}
+.wd-bookmark-actions {
+    margin-top: 12px;
+    width: 504px;
+    margin-left: 16px;
+}
+.wd-width-25p {
+    width: 25%;
+}
+.wd-bookmark-actions .wd-post-content {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+.wd-bookmark-actions .wd-post-content a {
+    color: inherit;
+    text-decoration: none;
+}
+.wd-bookmark-actions .wd-post-content i {
+    padding-right: 10px;
+}
+.wd-bookmark-actions .wd-red {
+    color: red !important
+}
