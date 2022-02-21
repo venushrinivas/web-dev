@@ -35,14 +35,14 @@
 .wd-left-border-gray {
     border-left: 1px rgb(47, 51, 54);
 }
-.wd-search-input-div {
+.wd-dark-theme .wd-search-input-div {
     border-radius: 20px;
     background-color: #202327;
     border: none;
     margin-right: 250px;
     height: 40px;
 }
-.wd-search-input {
+.wd-dark-theme .wd-search-input {
     width: 90%;
     border-radius: 20px;
     height: 35px;
@@ -247,4 +247,60 @@ input:focus{
 }
 .wd-bookmark-actions .wd-red {
     color: red !important
+}
+.wd-stack-correction {
+    width: 1em;
+}
+.wd-tweet-override {
+    border-radius: 40px;
+}
+.fa-2xs {
+    font-size: 0.625em;
+}
+.wd-font-bold {
+    font-weight:bold
+}
+.wd-verified-override {
+    position: relative;
+    top: -2px;
+}
+.wd-list-text-override {
+    position: relative;
+    top: -5px;
+}
+.wd-radius-64 {
+    border-radius: 64px;
+}
+.wd-left-10p {
+    left: 10px;
+}
+.wd-search-input-div {
+    width: 95%;
+    border-radius: 20px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.wd-search-input {
+    width: 85%;
+    border-radius: 20px;
+    height: 35px;
+    top: -2px;
+    border: none;
+    position: relative;
+}
+.wd-float-right {
+    float: right;
+}
+.wd-image-text {
+    color: white;
+}
+.wd-content {
+    position: relative;
+    top: -47px;
+}
+.wd-page-element-new {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.wd-post-topic-new {
+    color: rgb(133,141,147);
 }
