@@ -298,9 +298,12 @@ input:focus{
     position: relative;
     top: -47px;
 }
-.wd-page-element-new {
-    border: 1px solid rgba(0, 0, 0, 0.125);
-}
 .wd-post-topic-new {
     color: rgb(133,141,147);
+}
+.wd-content .list-group-item {
+    padding: 0;
+}
+.wd-content .list-group {
+    border-radius: 0;
 }
