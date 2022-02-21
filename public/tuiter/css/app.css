@@ -35,7 +35,7 @@
 .wd-left-border-gray {
     border-left: 1px rgb(47, 51, 54);
 }
-.wd-dark-theme .wd-search-input-div {
+/*.wd-dark-theme .wd-search-input-div {
     border-radius: 20px;
     background-color: #202327;
     border: none;
@@ -51,7 +51,7 @@
     color: white;
     top: -3px;
     position: relative;
-}
+}*/
 .wd-display-inline {
     display: inline;
 }
@@ -274,20 +274,6 @@ input:focus{
 .wd-left-10p {
     left: 10px;
 }
-.wd-search-input-div {
-    width: 92%;
-    border-radius: 20px;
-    height: 40px;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-}
-.wd-search-input {
-    width: 82%;
-    border-radius: 20px;
-    height: 35px;
-    top: -2px;
-    border: none;
-    position: relative;
-}
 .wd-float-right {
     float: right;
 }
@@ -306,4 +292,87 @@ input:focus{
 }
 .wd-content .list-group {
     border-radius: 0;
+}
+.wd-search-input-div {
+    width: 90%;
+    border-radius: 20px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.wd-search-input {
+    width: 80%;
+    border-radius: 20px;
+    height: 35px;
+    top: -2px;
+    border: none;
+    position: relative;
+}
+.wd-dark-theme .wd-search-input-div {
+    background-color: #202327;
+    color: white;
+}
+.wd-dark-theme .wd-search-input {
+    background-color: #202327;
+    color: white;
+}
+.wd-dark-theme .list-group {
+    background-color: black;
+    color: rgb(205,208,209);
+}
+.wd-dark-theme .list-group-item {
+    background-color: black;
+    color: rgb(205,208,209);
+}
+.wd-dark-theme .btn-primary {
+    color: #fff;
+    background-color: rgb(28,155,240);
+    border-color: rgb(28,155,240);
+}
+.wd-dark-theme .fa-stack .fa-inverse {
+    color: black;
+}
+.wd-dark-theme .list-group-item.active {
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+.wd-dark-theme .fa-search {
+    color: rgb(72,77,83);
+}
+.wd-dark-theme .fa-cog {
+    color: rgb(205,208,209);
+}
+.wd-dark-theme .wd-who-to-follow .list-group .list-group-item {
+    background-color: rgb(27 30 35);
+}
+.wd-dark-theme .wd-who-to-follow .list-group {
+    border-radius: 1.25rem;
+}
+.wd-dark-theme .wd-who-to-follow .btn-primary {
+    background-color: rgb(239,243,244);
+    color: black;
+    font-weight: bold;
+}
+.wd-dark-theme .list-group .list-group-item-action:hover {
+    color: white;
+    background-color: rgb(22,24,28);
+}
+.wd-dark-theme .wd-mid-content {
+    border-left: 0.063rem solid rgb(36,40,42);
+    border-right: 0.063rem solid rgb(36,40,42);
+}
+.wd-dark-theme .nav-tabs .nav-item .nav-link {
+    font-weight: bold;
+    color: rgb(109,117,123);
+    border: none;
+}
+.wd-dark-theme .nav-tabs .nav-item .nav-link.active {
+    background-color: unset;
+    border: none;
+    color: rgb(220,220,220);
+    font-weight: bold;
+    border-bottom: 0.313rem solid rgb(28,155,240);
+}
+.wd-dark-theme .nav-tabs {
+    border-bottom: none;
 }
