@@ -275,13 +275,13 @@ input:focus{
     left: 10px;
 }
 .wd-search-input-div {
-    width: 95%;
+    width: 92%;
     border-radius: 20px;
     height: 40px;
     border: 1px solid rgba(0, 0, 0, 0.125);
 }
 .wd-search-input {
-    width: 85%;
+    width: 82%;
     border-radius: 20px;
     height: 35px;
     top: -2px;
