@@ -352,6 +352,7 @@ input:focus{
     background-color: rgb(239,243,244);
     color: black;
     font-weight: bold;
+    border-color: rgb(239,243,244);
 }
 .wd-dark-theme .list-group .list-group-item-action:hover {
     color: white;
