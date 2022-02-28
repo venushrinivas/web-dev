@@ -21,3 +21,43 @@
 .wd-radius-64 {
     border-radius: 64px;
 }
+.wd-flex-container {
+    display: flex;
+}
+.wd-post-topic-new {
+    color: rgb(133,141,147);
+}
+.wd-post-2-image > img {
+    border-radius: 20px;
+}
+.wd-search-input-div {
+    width: 90%;
+    border-radius: 20px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: white;
+}
+.wd-search-input {
+    width: 80%;
+    border-radius: 20px;
+    height: 35px;
+    top: -1px;
+    border: none;
+    position: relative;
+}
+.wd-padding-13 {
+    padding: 13px;
+}
+.wd-float-right {
+    float: right;
+}
+input:focus{
+    outline: none;
+}
+.wd-image-text {
+    position: absolute;
+    bottom: -5px;
+}
+.position-relative {
+    position: relative;
+}
