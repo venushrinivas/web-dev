@@ -1,0 +1,23 @@
+.wd-stack-correction {
+    width: 1em !important;
+    height: unset !important;
+    top: -1em;
+}
+.fa-2xs {
+    font-size: 0.625em;
+}
+.color-black {
+    color: black !important;
+}
+.wd-tweet-override {
+    border-radius: 40px;
+}
+.wd-font-bold {
+    font-weight:bold
+}
+.wd-left-10p {
+    left: 1em;
+}
+.wd-radius-64 {
+    border-radius: 64px;
+}
