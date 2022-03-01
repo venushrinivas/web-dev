@@ -5,15 +5,15 @@ export default [
         icon_class: 'fab fa-twitter',
     },
     {
-        href: '#',
+        href: '../HomeScreen/home.html',
         a_class: 'list-group-item list-group-item-action',
         icon_class: 'fas fa-home',
         div_class: 'd-none d-xxl-inline-block d-xl-inline-block',
         text: 'Home',
     },
     {
-        href: '#',
-        a_class: 'list-group-item active list-group-item-action',
+        href: '../ExploreScreen/explore.html',
+        a_class: 'list-group-item list-group-item-action',
         icon_class: 'fas fa-hashtag',
         div_class: 'd-none d-xxl-inline-block d-xl-inline-block',
         text: 'Explore',
@@ -60,7 +60,7 @@ export default [
         stack_class: 'fa-stack fa-1x wd-stack-correction',
         icon_class: ['fas fa-circle fa-stack-1x','fas fa-ellipsis-h fa-2xs fa-stack-1x fa-inverse color-black'],
         div_class: 'd-none d-xxl-inline-block d-xl-inline-block',
-        text: 'Home',
+        text: 'More',
     },
     {
         is_button: true,
