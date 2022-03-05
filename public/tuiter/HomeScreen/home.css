@@ -35,3 +35,7 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+.wd-content .list-group-item-action:focus, .wd-content .list-group-item-action:hover {
+    border-color: #131313;
+    background-color: #131313;
+}

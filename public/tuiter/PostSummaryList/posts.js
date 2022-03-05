@@ -15,16 +15,16 @@ export default [
     },
     {
         topic: 'Web Development',
-        userName: 'JQuery',
+        userName: '',
         time: '1 day',
-        description: 'jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax',
+        description: 'jQuery',
         image: '../assets/images/jquery.png'
     },
     {
         topic: 'Web Development',
         userName: 'NodeJS',
         time: '1 week',
-        description: 'Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.',
+        description: '',
         image: '../assets/images/node.jpeg'
     },
 ]

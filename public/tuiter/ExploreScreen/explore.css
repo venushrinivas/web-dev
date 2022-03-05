@@ -61,3 +61,10 @@ input:focus{
 .position-relative {
     position: relative;
 }
+.wd-content .list-group-item-action:focus, .wd-content .list-group-item-action:hover {
+    border-color: #131313;
+    background-color: #131313;
+}
+.wd-width-80p {
+    width: 80%;
+}
