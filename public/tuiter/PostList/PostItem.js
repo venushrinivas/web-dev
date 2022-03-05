@@ -15,8 +15,8 @@ const PostItem = (post) => {
                                         <div class="wd-gray-text ps-1">
                                             ${post.user_name}
                                         </div>
-                                        <div class="wd-gray-text ps-1 pe-1 position-relative wd-pt-n4">
-                                            .
+                                        <div class="wd-gray-text ps-1 pe-1 position-relative">
+                                            •
                                         </div>
                                         <div class="wd-gray-text ps-1 pe-1">
                                             ${post.time}
