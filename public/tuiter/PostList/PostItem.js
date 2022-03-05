@@ -21,6 +21,9 @@ const PostItem = (post) => {
                                         <div class="wd-gray-text ps-1 pe-1">
                                             ${post.time}
                                         </div>
+                                        <div class="wd-gray-text wd-margin-left-auto">
+                                            <i class="fas fa-ellipsis-h "></i>
+                                        </div>
                                     </div>
                                 </div>
                                 ${post.sub_heading}
@@ -43,19 +46,19 @@ const PostItem = (post) => {
                                     <div class="w-25 wd-gray-text">
                                         <a class="text-decoration-none" href="#">
                                             <i class="far fa-comment pe-2"></i>
-                                            22
+                                            ${post.comment_count}
                                         </a>
                                     </div>
                                     <div class="w-25 wd-gray-text">
                                         <a class="text-decoration-none" href="#">
                                             <i class="fas fa-retweet pe-2"></i>
-                                            9
+                                            ${post.retweet_count}
                                         </a>
                                     </div>
                                     <div class="w-25 wd-gray-text">
                                         <a class="text-decoration-none" href="#">
                                             <i class="far fa-heart pe-2"></i>
-                                            25
+                                            ${post.like_count}
                                         </a>
                                     </div>
                                     <div class="w-25 wd-gray-text">

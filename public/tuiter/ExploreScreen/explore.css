@@ -68,3 +68,6 @@ input:focus{
 .wd-width-80p {
     width: 80%;
 }
+.wd-margin-left-auto {
+    margin-left: auto;
+}
