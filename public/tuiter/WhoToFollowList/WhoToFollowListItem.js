@@ -3,7 +3,7 @@ const WhoToFollowListItem = (who) => {
         <li class="list-group-item">
             <div class="row">
                 <div class="col-2 col-xxl-2 col-xl-2 col-lg-3 col-md-4">
-                    <img src="${who.avatar}" class="wd-radius-64" height="64px" width="64px"/>
+                    <img src="${who.avatar}" class="wd-radius-64" height="64px" width="64px" alt=""/>
                 </div>
                 <div class="col-7 col-xxl-7 col-xl-7 col-lg-5 col-md-4 position-relative wd-left-10p">
                     <div class="mt-1 wd-font-bold">

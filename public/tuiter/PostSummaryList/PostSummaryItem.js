@@ -20,7 +20,7 @@ const PostSummaryItem = (post) => {
                         </div>
                     </div>
                     <div class="wd-post-2-image mt-1">
-                        <img src="${post.image}" height="100px" width="100px"/>
+                        <img src="${post.image}" height="100px" width="100px" alt=""/>
                     </div>
                 </div>
             </div>
