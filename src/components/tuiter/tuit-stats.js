@@ -4,7 +4,6 @@ import React from "react";
 const TuitStats = ({tuit}) => {
     const dispatch = useDispatch();
     const likeTuit = (tuit) => {
-        console.log(tuit);
         const action = {
             type: 'like-tuit',
             tuit
