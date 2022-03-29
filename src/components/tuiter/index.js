@@ -7,7 +7,8 @@ import WhoToFollow from "./who-to-follow";
 import {useLocation} from 'react-router-dom';
 import whoReducer from "../../tuiter/reducers/who-reducer";
 import tuitsReducer from "../../tuiter/reducers/tuits-reducer";
-const reducers = combineReducers({tuits: tuitsReducer, who: whoReducer})
+import profileReducer from "../../tuiter/reducers/profile-reducer";
+const reducers = combineReducers({tuits: tuitsReducer, who: whoReducer, profile: profileReducer})
 const store = createStore(reducers);
 const Tuiter = () => {
     const location = useLocation();

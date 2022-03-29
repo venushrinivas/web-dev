@@ -54,7 +54,7 @@
     "key": 7
   },
   {
-    "href": "#",
+    "href": "/tuiter/profile",
     "a_class": "list-group-item list-group-item-action",
     "icon_class": "fas fa-user",
     "div_class": "d-none d-xxl-inline-block d-xl-inline-block ps-1",
