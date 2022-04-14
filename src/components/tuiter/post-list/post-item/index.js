@@ -1,28 +1,24 @@
 import React from "react";
 import {useDispatch} from "react-redux";
 import TuitStats from "../../tuit-stats";
+import {deleteTuit} from "../../../../actions/tuits-actions";
 const PostItem = ({
                       post = {
                           avatar: '/tuiter/assets/images/elon.png',
                           handle_name: 'Elon Musk',
                           user_name: '@elonmusk',
+                          verified: true,
                           tuit: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
                           stats: {
                               comment_count: 4100,
                               retweet_count: 3400,
-                              like_count: 2000
+                              like_count: 2000,
+                              unlike_count: 0
                           }
                       }
                   }) => {
 
     const dispatch = useDispatch();
-    const deleteTuitListener = (tuit) => {
-        const action = {
-            type: 'delete-tuit',
-            tuit
-        };
-        dispatch(action);
-    }
     return (<div className="list-group-item wd-border-bottom pt-3">
         <div className="d-flex">
             <div className="wd-avatar">
@@ -35,14 +31,17 @@ const PostItem = ({
                             <label className="pe-1">
                                 {post.handle_name}
                             </label>
+                            {post.verified &&
                             <span className="fa-stack fa-1x wd-stack-correction wd-verified-override pb-1"> <i
                                 className="fas fa-certificate fa-stack-1x"/> <i
-                                className="fas fa-check fa-2xs fa-stack-1x fa-inverse "/> </span>
+                                className="fas fa-check fa-2xs fa-stack-1x fa-inverse "/> </span>}
                         </div>
                         <div className="wd-gray-text ps-1">
-                            {post.user_name}
+                            @{post.user_name}
                         </div>
-                        <div onClick={() => {deleteTuitListener(post)}} className="wd-margin-left-auto">
+                        <div className="wd-gray-text ps-1 pe-1 position-relative">•</div>
+                        <div className="wd-gray-text pe-1">{post.time}</div>
+                        <div onClick={() => {deleteTuit(dispatch, post)}} className="wd-margin-left-auto">
                             <i className="fas fa-times"/>
                         </div>
                     </div>
@@ -73,7 +72,10 @@ const PostItem = ({
                         </a>
                     </div>
                     <div className="w-25 wd-color-white">
-                        <TuitStats tuit={post}/>
+                        <TuitStats tuit={post} isLike={true}/>
+                    </div>
+                    <div className="w-25 wd-color-white">
+                        <TuitStats tuit={post} isLike={false}/>
                     </div>
                     <div className="w-25 wd-color-white">
                         <a className="text-decoration-none" href="#">

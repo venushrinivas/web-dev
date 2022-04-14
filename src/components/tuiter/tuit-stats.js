@@ -1,26 +1,31 @@
 import {useDispatch} from "react-redux";
 import React from "react";
+import {updateTuit} from "../../actions/tuits-actions";
 
-const TuitStats = ({tuit}) => {
+const TuitStats = ({tuit, isLike}) => {
     const dispatch = useDispatch();
     const likeTuit = (tuit) => {
-        const action = {
-            type: 'like-tuit',
-            tuit
-        }
-        dispatch(action);
+        isLike ? tuit.stats.like_count++ : tuit.stats.unlike_count++;
+        updateTuit(dispatch, tuit);
     }
     return(
         <a className="text-decoration-none" onClick={()=>{likeTuit(tuit)}}>
             {
-                tuit.stats.liked &&
-                <i className="fas fa-heart pe-2" style={{color:'red'}}/>
+                isLike &&
+                <i className="far fa-thumbs-up pe-2"/>
             }
             {
-                !tuit.stats.liked &&
-                <i className="far fa-heart pe-2"/>
+                isLike &&
+                tuit.stats.like_count
             }
-            {tuit.stats.like_count}
+            {
+                !isLike &&
+                <i className="far fa-thumbs-down pe-2"/>
+            }
+            {
+                !isLike &&
+                tuit.stats.unlike_count
+            }
         </a>
     )
 }
