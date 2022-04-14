@@ -11,7 +11,6 @@ export const createTuit = async (dispatch, tuit) => {
         avatar: '/tuiter/assets/images/elon.png',
         verified: false,
         time: 'now',
-        _id: (new Date()).getTime() + '',
         handle_name: 'Elon Musk',
         user_name: 'elonmusk',
         stats: {
@@ -37,7 +36,7 @@ export const getTuits = async (dispatch) => {
 
 export const updateTuit = async (dispatch, tuit) => {
     const response = await service.updateTuit(tuit);
-    if(response === "OK") {
+    if(response.acknowledged) {
         dispatch({
             type: UPDATE_TUIT, tuit
         });
@@ -46,7 +45,7 @@ export const updateTuit = async (dispatch, tuit) => {
 
 export const deleteTuit = async (dispatch, tuit) => {
     const response = await service.deleteTuit(tuit);
-    if(response === "OK") {
+    if(response.acknowledged) {
         dispatch({
             type: DELETE_TUIT, tuit
         })
